@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+<h3><center>Cronometro</center>
+<div>
+    <center>
+       <!-- <h3 id="cron">00:00</h3> -->
+        <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>:<span id="millisecond">000</span>
+  </div>
+</h3>
+    </center>
+</div>
+<div>
+    <center>
+        <h3 id=P1></h3>
+    </center>
+</div>
+<center>
+    <div>
+      <button onclick="start()">Iniciar</button>
+      <button onclick="pause()">Parar</button>
+      <button onclick="reset()">Reset</button>
+  </div>
+  <br>
+  
+  <button onclick="index()">Relogio</button>
+
+  <div>
+    <!-- <center><h3 id="counter-patience">Foco!</h3></center> -->
+  </div>
+  </center>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
